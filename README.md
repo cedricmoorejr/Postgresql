@@ -7,7 +7,8 @@ The Flappy Database is a sample database designed for a fictitious tech company 
 1. [Description](#description)
 2. [Tables](#tables)
 3. [Database Schema](#database-schema)
-4. [Usage](#usage)
+4. [Folders and Scripts](#folders-and-scripts)
+5. [Usage](#usage)
 
 ## Description
 
@@ -81,6 +82,24 @@ The Flappy Database is structured as depicted in the database schema diagram, wh
 
 With this schema, you can store and manage customer information, smartwatch details, orders, reviews, and categories. The relationships between the tables allow you to associate users with their orders, smartwatches with their reviews, and smartwatches with their categories.
 
+
+## Folders and Scripts
+The Flappy Database includes the following folders and their corresponding scripts:
+
+1. `common_table_expressions`: This folder contains SQL scripts that define Common Table Expressions (CTEs). CTEs are temporary result sets that can be referenced within subsequent queries.
+2. `data_manipulation`: This folder contains SQL scripts that perform data manipulation operations, such as date and time operations.
+3. `indices`: This folder contains SQL scripts that define indices on specific columns in the tables to improve query performance.
+4. `recursive_common_table_expressions`: This folder contains SQL scripts that define Recursive Common Table Expressions (RCTEs). RCTEs are used when querying hierarchical or recursive data structures.
+5. `stored_procedures`: This folder contains SQL scripts that define stored procedures, which are precompiled and stored database programs that can be executed later.
+6. `temporary_functions`: This folder contains SQL scripts that define temporary functions, which are functions that can be used within queries to perform specific operations.
+7. `triggers`: This folder contains SQL scripts that define triggers, which are actions or routines that are automatically executed in response to specific events or changes in the database.
+
+The scripts in these folders provide additional functionality and customization options for working with the Flappy Database. Feel free to explore and execute these scripts as needed.
+
+
+
+
+
 ## Usage
 
 To use the Flappy Database:
@@ -89,6 +108,6 @@ To use the Flappy Database:
 2. Connect to the created "flappy" database.
 3. Run the `create_tables.sql` script included to add tables to the database.
 4. Run the `add_sample_data.sql` script to add sample data to the database or add your own.
-5. Utilize the scripts in the folders to play around with the data.
+5. Explore and execute scripts in the folders mentioned above to extend the functionality of the database or perform specific operations.
 
 
