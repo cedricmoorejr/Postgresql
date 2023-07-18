@@ -85,7 +85,7 @@ With this schema, you can store and manage customer information, smartwatch deta
 
 To use the Flappy Database:
 
-1. Create a PostgreSQL database using the provided SQL script.
+1. Create a PostgreSQL database using the provided SQL script: `create_db.sql`.
 2. Connect to the created "flappy" database.
 3. Run the `create_tables.sql` script included to add tables to the database.
 4. Run the `add_sample_data.sql` script to add sample data to the database or add your own.
